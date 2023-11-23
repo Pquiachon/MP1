@@ -1,0 +1,96 @@
+body {
+  font-family: "Jura", sans-serif;
+}
+
+.heading {
+  background-color: rgb(175, 173, 173);
+}
+
+#favicon {
+  width: 8vh;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#BrandName {
+  text-decoration: none;
+  color: black;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 750px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 0px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+  border-color: #000000;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin: 10px 10;
+  font-size: 20px;
+  color: black;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(248, 245, 245, 0);
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #c0bebe;
+}
+
+.search-bar button img {
+  width: 25px;
+}
+
+.loginimage {
+  width: 40px;
+}
+
+.cart-icon {
+  width: 35px;
+}
+
+#link {
+  text-decoration: none;
+  color: black;
+}
+
+#buttoncart {
+  border-radius: 100%;
+}
+
+#thumbnail_1 {
+  border-radius: 3%;
+}
+
+#thumbnail_2 {
+  border-radius: 3%;
+}
+
+#thumbnail_3 {
+  border-radius: 3%;
+}
+
+#button1 {
+  color: black;
+  background-color: #c0bebe;
+}
+
+#stars {
+  width: 100%;
+  max-width: 50px;
+}
