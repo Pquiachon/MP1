@@ -2,8 +2,24 @@ body {
   font-family: "Jura", sans-serif;
 }
 
+.body {
+  margin-top: 100px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+}
+
+.menu:hover {
+  color: rgb(51, 182, 171);
+  font-size: 2vh;
+}
+
 .heading {
   background-color: rgb(175, 173, 173);
+  position: fixed;
+  top: 0px;
 }
 
 #favicon {
@@ -93,4 +109,31 @@ body {
 #stars {
   width: 100%;
   max-width: 50px;
+}
+
+#feedback_1 {
+  width: 100%;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+footer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+}
+
+#footer-logo {
+  width: 50px;
+}
+
+.footer_shop {
+  list-style-type: none;
+}
+
+.footer-head {
+  padding: 0px;
+}
+
+.shop {
+  margin-top: 30px;
 }
