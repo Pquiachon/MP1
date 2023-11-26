@@ -118,6 +118,12 @@ body {
 #button1 {
   color: black;
   background-color: #c0bebe;
+  text-decoration: none;
+}
+
+#newinsseemore {
+  text-decoration: none;
+  color: #000000;
 }
 
 #stars {
